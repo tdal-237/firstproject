@@ -216,7 +216,14 @@
         font-weight: 700;
         margin-bottom: 0.1rem;
     }
-
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        padding: 8px;
+        border-top: solid 1px #D9CFC0;
+    }
+    
 
    @media(min-width:720px) {
         .product{
@@ -299,13 +306,4 @@
             flex-direction: row;
             flex-wrap: wrap;
         }
-    }
-    
-
-    .footer{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 80px;
-        padding: 8px;
-        border-top: solid 1px #D9CFC0;
     }
